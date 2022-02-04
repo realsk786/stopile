@@ -1,0 +1,69 @@
+
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../img/ye.webp');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    /* padding: 20px 0; */
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav ul{
+    background: #d0ebd7;
+    width: 100%;
+    margin-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 30px;
+    
+}
+nav ul li a{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    /* text-decoration: none; */
+}
+
+nav.sticky{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 0 8%;
+    background: #d0ebd7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: padding 1s;
+}
+nav.sticky ul{
+    width: auto;
+}
+
+
+.head-txt{
+    background-color: #F6F6F2;
+    box-shadow: 4px 4px 10px grey;
+    border-radius: 5px 20px 5px 40px;
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+    height: 250px;
+    bottom: 100px;
+    left: 100px;
+}
+.head-txt:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease;
+}
